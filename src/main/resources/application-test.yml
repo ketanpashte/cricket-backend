@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-d0thk0re5dus73ftbuu0-a.oregon-postgres.render.com/cricker_app_data
+    username: cricker_app_data_user
+    password: WBpsZQIYgsaGXkC7rw1Bx7mcAPupuMh5
+    driver-class-name: org.postgresql.Driver
+    platform: postgres
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        id:
+          new_generator_mappings: true

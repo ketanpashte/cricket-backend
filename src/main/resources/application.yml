@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: live_score
+  profiles:
+    active: dev
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    doc-expansion: none
+    display-request-duration: true
+    display-operation-id: true
+    default-model-expand-depth: 1
+
+  openapi:
+    title: FastX Live Score API
+    description: REST API documentation for FastX Live Score service
+    version: 1.0.0
+    terms-of-service: http://example.com/terms
+    contact:
+      name: Support Team
+      email: support@example.com
+      url: http://example.com
+    license:
+      name: MIT
+      url: http://opensource.org/licenses/MIT

@@ -1,0 +1,2878 @@
+[
+  {
+    "@class": "org.example.events.MatchStartingEvent",
+    "id": "0c58efd8-1e5a-4740-b6de-fd294b0c6cf0",
+    "time": 1752599303.427797500,
+    "customData": null,
+    "undoPoint": true,
+    "matchID": "03e1c8fb-1776-487f-af1d-2022df85beb8",
+    "scheduledStartTime": 1752599303.427797500,
+    "lineUps": {
+      "arrayList": [
+        {
+          "@class": "org.example.SimpleLineUp",
+          "players": {
+            "arrayList": [
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "R Sharma"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "R Jadeja"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "J Bumrah"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "S Gill"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "R Ashwin"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "H Pandya"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "M Shami"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "A Sherma"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "S Yadav"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "Sherma"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "KL Rahul"
+              }
+            ],
+            "first": 0,
+            "last": 10,
+            "empty": false
+          },
+          "captain": {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Sharma"
+          },
+          "wicketKeeper": {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Jadeja"
+          },
+          "teamName": "India"
+        },
+        {
+          "@class": "org.example.SimpleLineUp",
+          "players": {
+            "arrayList": [
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "J Buttler"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "J Bairstow"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "J Root"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "B Stokes"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "H Brook"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "M Ali"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "S Curran"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "C Woakes"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "A Rashid"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "M Wood"
+              },
+              {
+                "@class": "org.example.SimplePlayer",
+                "fullName": "R Topley"
+              }
+            ],
+            "first": 0,
+            "last": 10,
+            "empty": false
+          },
+          "captain": {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Buttler"
+          },
+          "wicketKeeper": {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Bairstow"
+          },
+          "teamName": "England"
+        }
+      ],
+      "first": 0,
+      "last": 1,
+      "empty": false
+    },
+    "inningsPerTeam": 1,
+    "oversPerInnings": 5,
+    "numberOfScheduledDays": 0,
+    "ballsPerInnings": 30,
+    "timeZone": "Asia/Calcutta"
+  },
+  {
+    "@class": "org.example.events.InningsStartingEvent",
+    "id": "4957f3d2-6793-4ab4-80ee-beb9507624a9",
+    "time": 1752599303.453301200,
+    "customData": null,
+    "undoPoint": true,
+    "startingScore": {
+      "batterRuns": 0,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "battingTeam": {
+      "@class": "org.example.SimpleLineUp",
+      "players": {
+        "arrayList": [
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Sharma"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Jadeja"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Bumrah"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "S Gill"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Ashwin"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "H Pandya"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "M Shami"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "A Sherma"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "S Yadav"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "Sherma"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "KL Rahul"
+          }
+        ],
+        "first": 0,
+        "last": 10,
+        "empty": false
+      },
+      "captain": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "R Sharma"
+      },
+      "wicketKeeper": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "R Jadeja"
+      },
+      "teamName": "India"
+    },
+    "bowlingTeam": {
+      "@class": "org.example.SimpleLineUp",
+      "players": {
+        "arrayList": [
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Buttler"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Bairstow"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Root"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "B Stokes"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "H Brook"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "M Ali"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "S Curran"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "C Woakes"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "A Rashid"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "M Wood"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Topley"
+          }
+        ],
+        "first": 0,
+        "last": 10,
+        "empty": false
+      },
+      "captain": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "J Buttler"
+      },
+      "wicketKeeper": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "J Bairstow"
+      },
+      "teamName": "England"
+    },
+    "maxBalls": 30,
+    "maxOvers": 5,
+    "target": null,
+    "isFollowingOn": false,
+    "inningsNumberForMatch": 1,
+    "inningsNumberForBattingTeam": 1,
+    "isFinalInnings": false
+  },
+  {
+    "@class": "org.example.events.BatterInningsStartingEvent",
+    "id": "a6326757-5ed7-467a-8bae-d0f457b14603",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "batter": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    }
+  },
+  {
+    "@class": "org.example.events.BatterInningsStartingEvent",
+    "id": "5ab2bc36-a24c-46a4-9a38-78957ccdbadd",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "batter": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    }
+  },
+  {
+    "@class": "org.example.events.OverStartingEvent",
+    "id": "449d92f5-ff07-4b75-92c3-3616137b955b",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "ballsInOver": 6,
+    "overNumber": 0,
+    "inningsNumber": 1
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "b6cd6005-4155-40b7-9361-566e3ed8f52e",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 1,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 0,
+    "numberInOver": 1,
+    "numberInMatch": 0,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "2090c366-e93c-4859-a572-98498a61a8a8",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 4,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 1,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 0,
+    "numberInOver": 2,
+    "numberInMatch": 1,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "50fbf3ac-6f3a-46ac-b903-29f86a6b5528",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 0,
+    "numberInOver": 3,
+    "numberInMatch": 2,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "7db5de11-c359-424c-8a31-14201b6d928e",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 0,
+    "numberInOver": 4,
+    "numberInMatch": 3,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "35158bf4-0987-41fd-b0d8-a3b4e6145c2b",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 0,
+    "numberInOver": 5,
+    "numberInMatch": 4,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "b4f51d44-b4d0-4c4b-99af-e9be759a4604",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 3,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 1,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 0,
+    "numberInOver": 6,
+    "numberInMatch": 5,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.OverCompletedEvent",
+    "id": "bd37bc40-df79-487f-9a3f-40a23aa3265e",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "inningsNumber": 1,
+    "overNumber": 0,
+    "ballsInOver": 6,
+    "score": {
+      "batterRuns": 14,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 3,
+      "threes": 1,
+      "fours": 1,
+      "sixes": 0,
+      "validDeliveries": 6
+    },
+    "isMaiden": false,
+    "maiden": false
+  },
+  {
+    "@class": "org.example.events.OverStartingEvent",
+    "id": "4c929320-b951-4d51-8935-dbf801014c72",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "ballsInOver": 6,
+    "overNumber": 1,
+    "inningsNumber": 1
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "5a473f6b-6c04-430c-8cf6-8dba0380dbc8",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 1,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 1,
+    "numberInOver": 1,
+    "numberInMatch": 6,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "2efbe415-63d4-41cc-bd0f-2b98dd63ae0f",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 1,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 1,
+    "numberInOver": 2,
+    "numberInMatch": 7,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "851a921b-eabd-4c69-b52f-1cc38057a109",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 1,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 1,
+    "numberInOver": 3,
+    "numberInMatch": 8,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "62275024-8e00-4356-94b2-441bf7398b58",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 1,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 1,
+    "numberInOver": 4,
+    "numberInMatch": 9,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "56874597-cbe6-4d9a-802f-37a90c71eb31",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 1,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 1,
+    "numberInOver": 5,
+    "numberInMatch": 10,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "1e7b145d-77a5-4e12-ad9f-e268b0254695",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 1,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 1,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 1,
+    "numberInOver": 6,
+    "numberInMatch": 11,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.OverCompletedEvent",
+    "id": "588e98aa-3e6d-4bc1-9d17-5a06f0a93f3f",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Topley"
+    },
+    "inningsNumber": 1,
+    "overNumber": 1,
+    "ballsInOver": 6,
+    "score": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 6,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 6
+    },
+    "isMaiden": false,
+    "maiden": false
+  },
+  {
+    "@class": "org.example.events.OverStartingEvent",
+    "id": "6107d524-45d9-43fc-9c78-30da6b4b1c71",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "ballsInOver": 6,
+    "overNumber": 2,
+    "inningsNumber": 1
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "75b271a8-4393-416e-acbb-ed8103bc9321",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 12,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "107dd4f2-2c16-4ad3-855f-d4097662d9da",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 13,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "80575140-b609-4eba-b025-9223c9c32122",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 14,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "0d2586a4-baeb-4ec5-94da-fcf750d3cb1b",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 15,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "6f8ff3c6-0cef-4225-b690-4b0d6b154c8a",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 16,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "1dff1183-12d9-44fe-90f6-d71b84a134c3",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 17,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "963f7de9-28a7-48e2-a919-6a08127a68d9",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 18,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "cd520702-8aef-4c52-81c9-4266ba789703",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 19,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "145136dc-9aaa-4aae-b2ca-cc52881cb8b3",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 20,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "790042c3-1e38-4f91-b4eb-fd2460de1cc1",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 21,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "d6802142-1943-447b-895e-d5a12a49ad50",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 22,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "43c75c59-dd6a-4096-a743-25a2bf62f06d",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 23,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "2a8c0d86-e96e-4c37-96f7-98c4f75c148e",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 24,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "b8d8853c-39c3-47c5-8db1-a3ad2cfe359c",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 1,
+    "numberInMatch": 25,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "23888d00-0d6e-4663-8e88-554f226bd1bb",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 2,
+    "numberInMatch": 26,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "3e52f454-32ce-43c0-b25e-6235187828d4",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 3,
+    "numberInMatch": 27,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "dd2b339d-c179-4b2a-b9c2-bfbe07197159",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 4,
+    "numberInMatch": 28,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "e5a6df7a-4d75-491b-b52c-58f46011e0a9",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 5,
+    "numberInMatch": 29,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "4119ffb7-d707-45ce-9bdb-f22ce748fc1b",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 2,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 1,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 2,
+    "numberInOver": 6,
+    "numberInMatch": 30,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.OverCompletedEvent",
+    "id": "78d73c01-3f79-4d15-a89f-a494a8a2d0f5",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "inningsNumber": 1,
+    "overNumber": 2,
+    "ballsInOver": 6,
+    "score": {
+      "batterRuns": 12,
+      "wides": 26,
+      "wideDeliveries": 13,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 6,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 6
+    },
+    "isMaiden": false,
+    "maiden": false
+  },
+  {
+    "@class": "org.example.events.OverStartingEvent",
+    "id": "83269cd1-c8b8-41fa-8530-0305b93efd70",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "ballsInOver": 6,
+    "overNumber": 3,
+    "inningsNumber": 1
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "fe452ddb-74e1-4fd8-8f33-baa2d739fba6",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 3,
+    "numberInOver": 1,
+    "numberInMatch": 31,
+    "valid": false
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "16d4f7e6-212f-4793-a034-d592f5460563",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 3,
+    "numberInOver": 1,
+    "numberInMatch": 32,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "7760d109-d97f-47d1-a84c-ee91f915eef2",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 3,
+    "numberInOver": 2,
+    "numberInMatch": 33,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "587d367e-f235-4ecd-9e36-f941a85e3fd1",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 3,
+    "numberInOver": 3,
+    "numberInMatch": 34,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "f7607dec-48c7-42f6-9bd4-c736b2568923",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 3,
+    "numberInOver": 4,
+    "numberInMatch": 35,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "00b21581-9093-4c2c-9189-fa3ee92eb901",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 3,
+    "numberInOver": 5,
+    "numberInMatch": 36,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "62d2a04d-c0ed-4487-b6db-d6f971c3b779",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 3,
+    "numberInOver": 6,
+    "numberInMatch": 37,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.OverCompletedEvent",
+    "id": "28fa90c7-6a97-46da-8f7c-f3d3d1c3a0db",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Bairstow"
+    },
+    "inningsNumber": 1,
+    "overNumber": 3,
+    "ballsInOver": 6,
+    "score": {
+      "batterRuns": 36,
+      "wides": 2,
+      "wideDeliveries": 1,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 6,
+      "validDeliveries": 6
+    },
+    "isMaiden": false,
+    "maiden": false
+  },
+  {
+    "@class": "org.example.events.OverStartingEvent",
+    "id": "918a8c3c-db31-49f1-8295-b10de0c13edd",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "ballsInOver": 6,
+    "overNumber": 4,
+    "inningsNumber": 1
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "c689f51d-7653-4afb-b01d-97d4de5fdb06",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 4,
+    "numberInOver": 1,
+    "numberInMatch": 38,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "db26e25e-f8f7-4ac1-8ade-539ed4862ff3",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 4,
+    "numberInOver": 2,
+    "numberInMatch": 39,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "0994c18a-a536-40b6-9a61-804d55889d5b",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 4,
+    "numberInOver": 3,
+    "numberInMatch": 40,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "f50f5779-3e41-4b65-ab27-a51ed78d53cf",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 4,
+    "numberInOver": 4,
+    "numberInMatch": 41,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "d7edf675-e526-4173-a0fb-89a5bbe15c7d",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 4,
+    "numberInOver": 5,
+    "numberInMatch": 42,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "34bfa117-b638-4514-88fe-1445761b498c",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 0,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 1,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 1,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 1
+    },
+    "playersCrossed": true,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 4,
+    "numberInOver": 6,
+    "numberInMatch": 43,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.OverCompletedEvent",
+    "id": "5d761be6-ef68-4dea-bb78-33880b8f04eb",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "J Buttler"
+    },
+    "inningsNumber": 1,
+    "overNumber": 4,
+    "ballsInOver": 6,
+    "score": {
+      "batterRuns": 30,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 1,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 1,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 5,
+      "validDeliveries": 6
+    },
+    "isMaiden": false,
+    "maiden": false
+  },
+  {
+    "@class": "org.example.events.OverStartingEvent",
+    "id": "94ae178f-1cfd-48d0-bcd2-81049bd04a51",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "ballsInOver": 6,
+    "overNumber": 5,
+    "inningsNumber": 1
+  },
+  {
+    "@class": "org.example.events.BallCompletedEvent",
+    "id": "72a8a4c8-91dd-4007-a24f-50c25e1ac3ee",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "bowler": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "M Wood"
+    },
+    "striker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Sharma"
+    },
+    "nonStriker": {
+      "@class": "org.example.SimplePlayer",
+      "fullName": "R Jadeja"
+    },
+    "runsScored": {
+      "batterRuns": 6,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 1,
+      "validDeliveries": 1
+    },
+    "playersCrossed": false,
+    "dismissal": null,
+    "delivery": null,
+    "swing": null,
+    "trajectoryAtImpact": null,
+    "fielder": null,
+    "overNumber": 5,
+    "numberInOver": 1,
+    "numberInMatch": 44,
+    "valid": true
+  },
+  {
+    "@class": "org.example.events.InningsCompletedEvent",
+    "id": "60748b50-c1d4-4a49-84aa-89eb5356a4c4",
+    "time": null,
+    "customData": null,
+    "undoPoint": true,
+    "declared": false,
+    "inningsNumber": 1,
+    "score": {
+      "batterRuns": 104,
+      "wides": 28,
+      "wideDeliveries": 14,
+      "noBalls": 0,
+      "legByes": 1,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 1,
+      "singles": 7,
+      "twos": 9,
+      "threes": 1,
+      "fours": 1,
+      "sixes": 12,
+      "validDeliveries": 31
+    }
+  },
+  {
+    "@class": "org.example.events.InningsStartingEvent",
+    "id": "a29cc465-e9cf-418a-819c-424b5e8fb8ba",
+    "time": 1752605031.266503900,
+    "customData": null,
+    "undoPoint": true,
+    "startingScore": {
+      "batterRuns": 0,
+      "wides": 0,
+      "wideDeliveries": 0,
+      "noBalls": 0,
+      "legByes": 0,
+      "byes": 0,
+      "penaltyRuns": 0,
+      "wickets": 0,
+      "dots": 0,
+      "singles": 0,
+      "twos": 0,
+      "threes": 0,
+      "fours": 0,
+      "sixes": 0,
+      "validDeliveries": 0
+    },
+    "battingTeam": {
+      "@class": "org.example.SimpleLineUp",
+      "players": {
+        "arrayList": [
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Buttler"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Bairstow"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Root"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "B Stokes"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "H Brook"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "M Ali"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "S Curran"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "C Woakes"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "A Rashid"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "M Wood"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Topley"
+          }
+        ],
+        "first": 0,
+        "last": 10,
+        "empty": false
+      },
+      "captain": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "J Buttler"
+      },
+      "wicketKeeper": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "J Bairstow"
+      },
+      "teamName": "England"
+    },
+    "bowlingTeam": {
+      "@class": "org.example.SimpleLineUp",
+      "players": {
+        "arrayList": [
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Sharma"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Jadeja"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "J Bumrah"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "S Gill"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "R Ashwin"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "H Pandya"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "M Shami"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "A Sherma"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "S Yadav"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "Sherma"
+          },
+          {
+            "@class": "org.example.SimplePlayer",
+            "fullName": "KL Rahul"
+          }
+        ],
+        "first": 0,
+        "last": 10,
+        "empty": false
+      },
+      "captain": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "R Sharma"
+      },
+      "wicketKeeper": {
+        "@class": "org.example.SimplePlayer",
+        "fullName": "R Jadeja"
+      },
+      "teamName": "India"
+    },
+    "maxBalls": 30,
+    "maxOvers": 5,
+    "target": 1,
+    "isFollowingOn": false,
+    "inningsNumberForMatch": 2,
+    "inningsNumberForBattingTeam": 1,
+    "isFinalInnings": true
+  }
+]

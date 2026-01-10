@@ -1,0 +1,6 @@
+name,logoUrl,coach,shortCode,captainId
+India,https://example.com/logos/india.png,Rahul Dravid,IND,1
+Australia,https://example.com/logos/australia.png,Andrew McDonald,AUS,2
+England,https://example.com/logos/england.png,Brendon McCullum,ENG,3
+South Africa,https://example.com/logos/southafrica.png,Rob Walter,SA,4
+New Zealand,https://example.com/logos/newzealand.png,Gary Stead,NZ,5
