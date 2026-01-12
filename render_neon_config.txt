@@ -1,0 +1,12 @@
+# PROVISIONED NEON DATABASE DETAILS
+# Copy these EXACTLY into Render.com -> Environment Variables
+
+SPRING_PROFILES_ACTIVE=prod
+
+# Database Connection (Converted to JDBC format for Java)
+DB_URL=jdbc:postgresql://ep-spring-darkness-ahwsqor8-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require
+DB_USERNAME=neondb_owner
+DB_PASSWORD=npg_cMvUA28eyEBK
+
+# Troubleshooting:
+# If Render says "Connection refused", ensure you copied the Password exactly (no spaces).
