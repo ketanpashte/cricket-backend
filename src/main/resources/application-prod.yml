@@ -16,3 +16,12 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         id:
           new_generator_mappings: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.hibernate: INFO
+    com.fastx.live_score: DEBUG
