@@ -25,7 +25,6 @@ public class NewsEntity {
     @Column(columnDefinition = "TEXT")
     private String content;
 
-    @Lob
     @Column(columnDefinition = "TEXT")
     private String imageUrl;
 
