@@ -46,8 +46,14 @@ public class FileService {
             Path targetLocation = this.fileStorageLocation.resolve(fileName);
             Files.copy(file.getInputStream(), targetLocation, StandardCopyOption.REPLACE_EXISTING);
 
-            // Generate the URL
+            // Generate the URL (Explicitly force https if running on Render)
+            String hostname = ServletUriComponentsBuilder.fromCurrentContextPath().build().getHost();
+            boolean isRender = hostname != null && hostname.contains("onrender.com");
+            String scheme = isRender ? "https"
+                    : ServletUriComponentsBuilder.fromCurrentContextPath().build().getScheme();
+
             String fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath()
+                    .scheme(scheme)
                     .path("/uploads/")
                     .path(fileName)
                     .toUriString();

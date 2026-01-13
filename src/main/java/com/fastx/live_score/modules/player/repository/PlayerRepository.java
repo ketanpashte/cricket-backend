@@ -17,8 +17,17 @@ public interface PlayerRepository extends JpaRepository<PlayerEntity, Long> {
         @Query("select (count(p) > 0) from PlayerEntity p where p.fullName = :fullName")
         boolean existsByFullName(@Param("fullName") String fullName);
 
-        @Query("""
+        @Query(value = """
                             SELECT p FROM PlayerEntity p
+                            WHERE (
+                                    :query IS NULL OR
+                                    (LOWER(p.fullName) LIKE LOWER(CONCAT('%', :query, '%'))
+                                    OR LOWER(p.shortName) LIKE LOWER(CONCAT('%', :query, '%')))
+                                  )
+                              AND (:role IS NULL OR p.role = :role)
+                              AND (:nationality IS NULL OR LOWER(p.nationality) LIKE LOWER(CONCAT('%', :nationality, '%')))
+                        """, countQuery = """
+                            SELECT count(p) FROM PlayerEntity p
                             WHERE (
                                     :query IS NULL OR
                                     (LOWER(p.fullName) LIKE LOWER(CONCAT('%', :query, '%'))
