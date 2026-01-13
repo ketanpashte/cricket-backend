@@ -41,7 +41,8 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<AppResponse<Object>> handleAllExceptions(Exception ex, WebRequest request) {
         ex.printStackTrace();
-        return buildResponse(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage(), request.getDescription(false));
+        String errorMsg = ex.getClass().getSimpleName() + ": " + ex.getMessage();
+        return buildResponse(HttpStatus.INTERNAL_SERVER_ERROR, errorMsg, request.getDescription(false));
     }
 
     private ResponseEntity<AppResponse<Object>> buildResponse(HttpStatus status, String message, String path) {
