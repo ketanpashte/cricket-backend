@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "players", uniqueConstraints = {
-        @UniqueConstraint(name = "uc_playerentity_fullname", columnNames = {"fullName"})
+        @UniqueConstraint(name = "uc_playerentity_fullname", columnNames = { "fullName" })
 })
 @Data
 @Builder
@@ -23,15 +23,16 @@ public class PlayerEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String fullName;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String shortName;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String nationality;
 
+    @Column(columnDefinition = "TEXT")
     private String role;
 
     private String battingStyle;
@@ -48,6 +49,5 @@ public class PlayerEntity {
 
     @UpdateTimestamp
     private LocalDateTime updateAt;
-
 
 }
