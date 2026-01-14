@@ -8,9 +8,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "players_v2", uniqueConstraints = {
-        @UniqueConstraint(name = "uc_playerentity_fullname", columnNames = { "fullName" })
-})
+@Table(name = "players_v2")
 @Data
 @Builder
 @NoArgsConstructor
@@ -23,10 +21,10 @@ public class PlayerEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, columnDefinition = "TEXT")
+    @Column(name = "full_name", nullable = false, columnDefinition = "TEXT")
     private String fullName;
 
-    @Column(nullable = false, columnDefinition = "TEXT")
+    @Column(name = "short_name", nullable = false, columnDefinition = "TEXT")
     private String shortName;
 
     @Column(nullable = false, columnDefinition = "TEXT")
