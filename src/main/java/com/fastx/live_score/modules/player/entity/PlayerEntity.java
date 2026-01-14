@@ -8,7 +8,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "players_v2")
+@Table(name = "players_v3")
 @Data
 @Builder
 @NoArgsConstructor
@@ -21,16 +21,15 @@ public class PlayerEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "full_name", nullable = false, columnDefinition = "TEXT")
+    @Column(name = "full_name", nullable = false)
     private String fullName;
 
-    @Column(name = "short_name", nullable = false, columnDefinition = "TEXT")
+    @Column(name = "short_name", nullable = false)
     private String shortName;
 
-    @Column(nullable = false, columnDefinition = "TEXT")
+    @Column(nullable = false)
     private String nationality;
 
-    @Column(columnDefinition = "TEXT")
     private String role;
 
     private String battingStyle;
